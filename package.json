@@ -12,11 +12,13 @@
   "dependencies": {
     "@clerk/nextjs": "^6.28.0",
     "@clerk/themes": "^2.4.3",
+    "@liveblocks/node": "^3.2.1",
     "@radix-ui/react-slot": "^1.2.3",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "jsm-editor": "^0.0.12",
     "lucide-react": "^0.534.0",
+    "nanoid": "^5.1.5",
     "next": "15.4.5",
     "react": "19.1.0",
     "react-dom": "19.1.0",
