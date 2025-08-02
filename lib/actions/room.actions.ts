@@ -21,11 +21,19 @@ CreateDocumentParams) => {
             [email]: ['room:write']
         }
 
-    const room = await liveblocks.createRoom("roomId", {
+    try {
+      await liveblocks.createRoom(roomId, {
         metadata,
         usersAccesses,
-        defaultAccesses:['room:write'] 
-});
+        defaultAccesses: ['room:write'],
+      });
+    } catch (error: any) {
+      if (error.status === 409) {
+        console.log('Room already exists, skipping creation.');
+      } else {
+        throw error;
+      }
+    }
 
 revalidatePath('/');
 
