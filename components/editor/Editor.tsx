@@ -11,9 +11,10 @@ import { HistoryPlugin } from '@lexical/react/LexicalHistoryPlugin';
 import { LexicalErrorBoundary } from '@lexical/react/LexicalErrorBoundary';
 import React from 'react';
 import { useStatus } from "@liveblocks/react";
+import Comments from '@/components/Comments';
 
 import { FloatingComposer, FloatingThreads, liveblocksConfig, LiveblocksPlugin} from '@liveblocks/react-lexical'
-import {useEditorStatus} from '@liveblocks/react';
+// import {useEditorStatus} from '@liveblocks/react';
 
 import Loader from '../Loader';
 
@@ -73,7 +74,7 @@ export function Editor({ roomId, currentUserType }: { roomId: string, currentUse
           <LiveblocksPlugin>
             <FloatingComposer className="w-[350px]" />
             <FloatingThreads threads={threads} />
-            {/* <Comments /> */}
+            <Comments />
           </LiveblocksPlugin>
         </div>
       </div>
