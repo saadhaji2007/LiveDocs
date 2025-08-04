@@ -45,3 +45,8 @@ next-env.d.ts
 
 # Sentry Config File
 .env.sentry-build-plugin
+sentry-wizard-installation-error-1754270787670.log
+sentry-wizard-installation-error-1754270862438.log
+sentry-wizard-installation-error-1754271159908.log
+sentry-wizard-installation-error-1754271221947.log
+sentry-wizard-installation-error-1754271405772.log
