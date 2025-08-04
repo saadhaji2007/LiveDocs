@@ -1,0 +1,27 @@
+npm error code ERESOLVE
+npm error ERESOLVE could not resolve
+npm error
+npm error While resolving: @liveblocks/react-lexical@3.2.1
+npm error Found: @lexical/react@0.33.1
+npm error node_modules/@lexical/react
+npm error   @lexical/react@"^0.33.1" from the root project
+npm error
+npm error Could not resolve dependency:
+npm error peer @lexical/react@"0.24.0" from @liveblocks/react-lexical@3.2.1
+npm error node_modules/@liveblocks/react-lexical
+npm error   @liveblocks/react-lexical@"^3.2.1" from the root project
+npm error
+npm error Conflicting peer dependency: @lexical/react@0.24.0
+npm error node_modules/@lexical/react
+npm error   peer @lexical/react@"0.24.0" from @liveblocks/react-lexical@3.2.1
+npm error   node_modules/@liveblocks/react-lexical
+npm error     @liveblocks/react-lexical@"^3.2.1" from the root project
+npm error
+npm error Fix the upstream dependency conflict, or retry
+npm error this command with --force or --legacy-peer-deps
+npm error to accept an incorrect (and potentially broken) dependency resolution.
+npm error
+npm error
+npm error For a full report see:
+npm error C:\Users\hajis\AppData\Local\npm-cache\_logs\2025-08-04T01_26_14_331Z-eresolve-report.txt
+npm error A complete log of this run can be found in: C:\Users\hajis\AppData\Local\npm-cache\_logs\2025-08-04T01_26_14_331Z-debug-0.log
